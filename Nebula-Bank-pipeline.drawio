@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.13">
+  <diagram name="Page-1" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
+    <mxGraphModel dx="2100" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="374e34682ed331ee-1" value="Software Pipeline" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="330" y="180" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-1" value="Code Development" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="450" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-2" value="Image Scanning and Push to Registry" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="450" y="560" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-3" value="Code Build, Unit and Integration Testing (for e.g. Maven)" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="710" y="300" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-4" value="End to End Testing" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="190" y="300" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-5" value="Production Deployment and Monitoring" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="280" y="130" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-6" value="Version Control System&amp;nbsp;&lt;div&gt;(for e.g. Git)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="620" y="130" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-7" value="Static Code Analysis&lt;div&gt;(SonarQube)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="620" y="470" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="45236fa5f4b8e91a-8" value="Deploy to staging environment" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;comic=0;fontFamily=Verdana;fontSize=22;fontColor=#0069D1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="280" y="470" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KjedLvYoQJYts-A0Dnv0-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Private Image Registry to control and audit images&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KjedLvYoQJYts-A0Dnv0-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;DockerFile Linting&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Before image build, the linter checks the Dockerfile to ensure it adheres to best practices and security standards.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KjedLvYoQJYts-A0Dnv0-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;To Ensure Images are not Tampered:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Use Docker Content Trust (DCT) to ensure that images are signed and verified&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Kubernetes&lt;/span&gt; &lt;span style=&quot;font-weight: normal;&quot;&gt;e&lt;span style=&quot;background-color: initial;&quot;&gt;nforce&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt; policies that restrict the images that can be used, such as requiring them to come from trusted registries.&lt;/span&gt;&lt;/h4&gt;&lt;/li&gt;&lt;li&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Keep the&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;base images up to date and their dependencies to include security patches&lt;/span&gt;&lt;/h4&gt;&lt;/li&gt;&lt;li&gt;&lt;h4&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Image&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Scanning for known vulnerabilities,&lt;/span&gt;&lt;/h4&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;private registry to control which images are allowed&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-10" width="270" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

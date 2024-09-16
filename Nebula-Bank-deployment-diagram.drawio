@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Page-1" id="SwuHZHYd3mRkQI7wETz5">
+    <mxGraphModel dx="1500" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rc43RMpG442vYnA7-rqs-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-2" value="Kubernetes Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-3" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-4" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="330" y="302" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-6" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-7" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.248;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.663;exitY=0.568;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300.005" y="273.89" as="sourcePoint" />
+            <mxPoint x="257.34999999999997" y="273.8140000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-9" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;account-service pod - 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-10" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;payment-service pod - 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-11" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;authentication-service pod - 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="299" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-13" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-14" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="330" y="532" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-15" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-16" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.248;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.663;exitY=0.568;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300.005" y="503.89" as="sourcePoint" />
+            <mxPoint x="257.34999999999997" y="503.8140000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;payment-service pod - 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-19" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;authentication-service pod - 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-20" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;dashboard-service pod - 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="529" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-22" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-23" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="570" y="302" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-24" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-25" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.248;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.663;exitY=0.568;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540.005" y="273.89" as="sourcePoint" />
+            <mxPoint x="497.34999999999997" y="273.8140000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-27" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;tarnsfer-service pod - 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;dashboard-service pod - 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;payment-service pod - 3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="299" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-30" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-31" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="430" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-32" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+          <mxGeometry x="570" y="532" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-33" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-34" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.248;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.663;exitY=0.568;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540.005" y="503.89" as="sourcePoint" />
+            <mxPoint x="497.34999999999997" y="503.8140000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;tarnsfer-service pod - 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-37" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;dashboard-service pod - 3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="380" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-38" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;payment-service pod - 4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="529" width="60" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.248;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="480" as="sourcePoint" />
+            <mxPoint x="640" y="480.0040000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;strong&gt;deploying service replicas across different nodes&lt;/strong&gt; in a Kubernetes cluster to improve &lt;strong&gt;fault tolerance&lt;/strong&gt; and &lt;strong&gt;high availability&lt;/strong&gt;. By spreading replicas across nodes, to reduce the risk of downtime caused by individual node failures.&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-41" value="&lt;span style=&quot;background-color: initial;&quot;&gt;The &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Horizontal Pod Autoscaler (HPA)&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; monitors CPU usage and may scale the number of Pods (e.g., to 6 Pods).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If there are not enough resources in the existing nodes&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="700" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-42" value="HPA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="268" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-43" value="HPA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="499" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-44" value="HPA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="499" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-45" value="HPA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="268" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-46" value="&lt;strong&gt;Cluster Autoscaler&lt;/strong&gt; ensures there are enough nodes to run the required number of Pods. If more Pods are needed and there isn’t enough capacity, Cluster Autoscaler adds nodes" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="820" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-47" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;critical services and services expected to have more traffic can be initialized with a larger number of pods to ensure the availability (e.g. payment-service)&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="850" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-49" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kubernetes Deployment Diagram&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="250" as="sourcePoint" />
+            <mxPoint x="170" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-52" value="Ingress" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="240" as="sourcePoint" />
+            <mxPoint x="740" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc43RMpG442vYnA7-rqs-54" value="Egress" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="198" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
